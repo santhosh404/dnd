@@ -1,0 +1,59 @@
+.container {
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    cursor: grab !important;
+}
+
+.ticketNameContainer {
+    height: 100px;
+}
+
+.ticketName {
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.ticketcardfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ticketId {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticketIcon {
+    background-color: green;
+    color: #fff;
+    font-size: 9px;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+.ticketIdValue {
+    font-size: 12px;
+    color: gray;
+}
+
+.assignee {
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,152 @@
+.projectHeading {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.container {
+  width: 100vw;
+  height: calc(100vh - 37px);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Todo Area */
+.todoCanvas {
+  width: 200px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.todoHeading {
+  padding: 10px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.todoArea {
+  overflow: auto;
+  height: 95%;
+}
+
+/* Re-Opened Area */
+.reopenedCanvas {
+  width: 200px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.reopenedHeading {
+  padding: 10px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.reopenedArea {
+  overflow: auto;
+  height: 95%;
+}
+
+/* Incode Area */
+.incodeCanvas {
+  width: 200px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 15px;
+}
+
+.incodeHeading {
+  padding: 10px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.incodeArea {
+  overflow: auto;
+  height: 95%;
+}
+
+/* Code-Review Area */
+.codereviewCanvas {
+  width: 200px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.codereviewHeading {
+  padding: 10px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.codereviewArea {
+  overflow: auto;
+  height: 95%;
+}
+
+/* Test-Ready Area */
+.testreadyCanvas {
+  width: 200px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.testreadyHeading {
+  padding: 10px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.testreadyArea {
+  overflow: auto;
+  height: 95%;
+}
+
+/* In-Test Area */
+.intestCanvas {
+  width: 200px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.intestHeading {
+  padding: 10px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+intestArea {
+  overflow: auto;
+  height: 95%;
+}
+
+/* Ready-For-The_Release Area */
+.readyforthereleaseCanvas {
+  width: 200px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.readyforthereleaseHeading {
+  padding: 10px;
+  color: lightgray;
+  font-size: 13px;
+}
+
+.readyforthereleaseArea {
+  overflow: auto;
+  height: 95%;
+}
